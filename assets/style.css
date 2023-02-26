@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+#container {
+    width: 100vw;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 10vw 10px 10vw;
+    background-color: #2D3748;
+}
+
+#logo-box {
+    width: 30%;
+}
+
+#logo-box img {
+    width: 32%;
+}
+
+#nav-bar {
+    width: 70%;
+    color: #76D378;
+}
