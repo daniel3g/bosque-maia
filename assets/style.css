@@ -382,3 +382,156 @@ hr{
     border-radius: 0 4px 4px 0;
     color: #fff;
 }
+
+
+/* Estilos padrão para telas maiores */
+/* Por exemplo, para desktops */
+
+@media (max-width: 768px) {
+    /* Quando a largura da tela for igual ou inferior a 768px */
+    /* Mude a aparência para telas menores, como tablets */
+
+    p {
+        padding: 10px;
+    }
+  
+    /* Estilos para o cabeçalho */
+    #bar-menu {
+      flex-direction: column;
+      width: 100vw;
+      padding: auto 10px;
+    }
+  
+    #menu {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .nav-menu li {
+      display: block;
+      padding: 10px;
+    }
+  
+    /* Estilos para o conteúdo do cabeçalho */
+    #content-header {
+      flex-direction: column;
+      width: 100vw;
+      padding: auto 10px;
+    }
+  
+    #content-header-left, #content-header-right {
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    #content-header-right {
+      margin-top: 20px;
+    }
+  
+    #celular-header {
+      width: 100%;
+    }
+
+    #details{
+        flex-direction: column;
+        padding: 10px;
+    }
+  
+    /* Estilos para as seções com cartões de detalhes */
+    .card-details {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    /* Estilos para a seção de recursos */
+    #resources-section{
+        flex-direction: column;
+    }
+
+    #resources p {
+        padding: 10px;
+    }
+
+    #resources-left, #resources-center, #resources-right {
+      width: 100%;
+      padding: 20px 10px;
+    }
+  
+    #resources-center img {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    /* Estilos para a seção de parceiros */
+    #partners-section {
+      flex-direction: column;
+      padding: 10px;
+      gap: 40px;
+    }
+
+    #partners p {
+        padding: 10px;
+    }
+  
+    .card-details img {
+      width: 100px;
+      margin-top: 0;
+    }
+  
+    /* Estilos para a seção de download */
+    #download {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    #download-left, #download-right {
+      width: 100%;
+    }
+  
+    #download-left img {
+      width: 100%;
+    }
+  
+    #download-right img {
+      width: 60%;
+    }
+  
+    /* Estilos para a seção de capturas de tela */
+    #screenshot {
+        padding: 10px;
+    }
+
+    #screenshot p {
+        padding: 10px;
+    }
+
+    #screenshot-images {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #screenshot-images img {
+        width: 100%;
+    }
+  
+    /* Estilos para a seção de registro */
+    #register {
+      flex-direction: column-reverse;
+      padding: 10px;
+    }
+  
+    #register-left, #register-right {
+      width: 100%;
+    }
+  
+    #register-left img {
+      width: 100%;
+    }
+
+    #footer-info {
+        display: flex;
+        flex-direction: column;
+    }
+  }
