@@ -37,7 +37,7 @@ hr{
     display: none;
     border: none;
     background: none;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #76D378;
     cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ hr{
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff; 
+    background: #76D378; 
     margin-top: 5px;   
 }
 
@@ -362,6 +362,17 @@ hr{
     padding: 60px 15%;
 }
 
+#footer h3 {
+    color:#76D378;
+    padding-block: 10px;
+}
+
+#footer hr {
+    width: 100%;
+    border: #242b38 solid 1px;
+    margin: 40px 0;
+}
+
 #footer-info {
     display: flex;
 }
@@ -378,7 +389,22 @@ hr{
     width: 33.3%;
 }
 
-#footer-nav .nav-menu li{
+.nav-menu-footer li{
+    display: inline-block;
+    padding: 20px;
+    color: #76D378;
+    text-decoration: none;
+}
+
+.nav-menu-footer a {
+    text-decoration: none;
+}
+
+.nav-menu-footer li:hover{
+    color: #fff;
+}
+
+#footer-nav .nav-menu-footer li{
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -404,14 +430,18 @@ hr{
     color: #fff;
 }
 
+#credits {
+    background-color: #242b38;
+    padding: 10px;
+}
 
-/* Estilos padrão para telas maiores */
-/* Por exemplo, para desktops */
+#credits p {
+    color: #7a7a7a;
+    font-size: 12px;
+}
 
 @media (max-width: 768px) {
-    /* Quando a largura da tela for igual ou inferior a 768px */
-    /* Mude a aparência para telas menores, como tablets */
-
+   
     .menu-toggle {
         display: block;
         z-index: 1;
@@ -426,7 +456,7 @@ hr{
         width: 100vw;
         height: 100vh;
         background-color: #2D3748;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(100px at 90% -19%);
         transition: 1s ease-out;
 
         justify-content: space-around;
@@ -581,8 +611,21 @@ hr{
       width: 320px;
     }
 
+    #footer {
+        padding: 10px;
+    }
+
     #footer-info {
         display: flex;
         flex-direction: column;
     }
+
+    #footer-subscribe {
+        width: 100%;
+    }
+
+    #footer-subscribe img {
+        width: 140px;
+    }
+
   }
